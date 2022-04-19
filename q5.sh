@@ -18,7 +18,7 @@ done
  len=${#val}
  
 
-echo  $rev_val | tr 'a-zA-Z' 'b-zA-Za' #'abcdefghijklmnopqrstuvwxyz' 'bcdefghijklmnopqrstuvwxyza' 
+echo  $rev_val | tr 'a-zA-Z' 'b-zA-Za' 
 
 
 run=len/2
